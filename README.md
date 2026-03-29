@@ -1,11 +1,11 @@
 # Latent Scope
 
-**Latent Scope** is a professional-grade LLM interpretability workspace built strictly for local analysis (optimized for MLX). It bridges the gap between visual concept discovery and active model steering entirely in the browser. 
+**Latent Scope** is a LLM interpretability workspace. It bridges the gap between visual concept discovery and active model steering entirely. 
 
 Unlike standard dashboards that only broadly visualize embeddings, Latent Scope lets you mathematically isolate fine semantic features (like "truthfulness", "politeness", or "geographical awareness") across a model's residual stream, export the resulting vectors as an `Operator`, and directly inject them into the model's forward-pass to predictably steer live generation.
 
 ## Quick Start
-1. Ensure your environment has the required MLX dependencies installed.
+1. Install MLX (pip install mlx)
 2. Launch the workspace from your terminal:
    ```bash
    python -m latent_scope
