@@ -1,0 +1,84 @@
+{
+  "groups": [
+    {
+      "name": "Historical Events: True",
+      "color": "#1f77b4",
+      "items": "World War II ended in 1945.\nThe first moon landing was in 1969.\nThe Berlin Wall fell in 1989.\nThe French Revolution began in 1789.\nThe Titanic sank in 1912.\nThe United States declared independence in 1776.\nThe first iPhone was released in 2007.\nWorld War I began in 1914.\nThe Great Fire of London occurred in 1666.\nNelson Mandela was released from prison in 1990."
+    },
+    {
+      "name": "Historical Events: False",
+      "color": "#ff7f0e",
+      "items": "World War II ended in 1938.\nThe first moon landing was in 1955.\nThe Berlin Wall fell in 1972.\nThe French Revolution began in 1845.\nThe Titanic sank in 1935.\nThe United States declared independence in 1812.\nThe first iPhone was released in 1999.\nWorld War I began in 1939.\nThe Great Fire of London occurred in 1812.\nNelson Mandela was released from prison in 1975."
+    },
+    {
+      "name": "Historical Events: Gibberish",
+      "color": "#2ca02c",
+      "items": "World War II ended in a teapot.\nThe first moon landing was in a sandwich.\nThe Berlin Wall fell into a melody.\nThe French Revolution began in a dictionary.\nThe Titanic sank in a library card.\nThe United States declared independence in a raindrop.\nThe first iPhone was released in a snowflake.\nWorld War I began in a kaleidoscope.\nThe Great Fire of London occurred in a whisper.\nNelson Mandela was released from a seashell."
+    },
+    {
+      "name": "Capitals True",
+      "color": "#d62728",
+      "items": "Paris is the capital of France.\nBerlin is the capital of Germany.\nRome is the capital of Italy.\nMadrid is the capital of Spain.\nLisbon is the capital of Portugal.\nAmsterdam is the capital of Netherlands.\nBrussels is the capital of Belgium.\nVienna is the capital of Austria.\nBern is the capital of Switzerland.\nWarsaw is the capital of Poland.\nPrague is the capital of Czechia.\nBudapest is the capital of Hungary.\nAthens is the capital of Greece.\nCopenhagen is the capital of Denmark.\nOslo is the capital of Norway.\nStockholm is the capital of Sweden.\nHelsinki is the capital of Finland.\nDublin is the capital of Ireland.\nOttawa is the capital of Canada.\nTokyo is the capital of Japan.\nSeoul is the capital of South Korea.\nCanberra is the capital of Australia.\nBrasilia is the capital of Brazil.\nBuenos Aires is the capital of Argentina.\nNew Delhi is the capital of India.\nMexico City is the capital of Mexico.\nCairo is the capital of Egypt."
+    },
+    {
+      "name": "Capitals False",
+      "color": "#9467bd",
+      "items": "Berlin is the capital of France.\nRome is the capital of Germany.\nMadrid is the capital of Italy.\nLisbon is the capital of Spain.\nAmsterdam is the capital of Portugal.\nBrussels is the capital of Netherlands.\nVienna is the capital of Belgium.\nBern is the capital of Austria.\nWarsaw is the capital of Switzerland.\nPrague is the capital of Poland.\nBudapest is the capital of Czechia.\nAthens is the capital of Hungary.\nCopenhagen is the capital of Greece.\nOslo is the capital of Denmark.\nStockholm is the capital of Norway.\nHelsinki is the capital of Sweden.\nDublin is the capital of Finland.\nOttawa is the capital of Ireland.\nTokyo is the capital of Canada.\nSeoul is the capital of Japan.\nCanberra is the capital of South Korea.\nBrasilia is the capital of Australia.\nBuenos Aires is the capital of Brazil.\nNew Delhi is the capital of Argentina.\nMexico City is the capital of India.\nCairo is the capital of Mexico.\nParis is the capital of Egypt."
+    },
+    {
+      "name": "Capitals Gibberish",
+      "color": "#8c564b",
+      "items": "Bicycle is the capital of France.\nPancake is the capital of Germany.\nLantern is the capital of Italy.\nVolcano is the capital of Spain.\nSandbox is the capital of Portugal.\nNeutron is the capital of Netherlands.\nMarble is the capital of Belgium.\nSailboat is the capital of Austria.\nNotebook is the capital of Switzerland.\nCactus is the capital of Poland.\nComet is the capital of Czechia.\nSpoon is the capital of Hungary.\nPebble is the capital of Greece.\nAccordion is the capital of Denmark.\nFountain is the capital of Norway.\nBackpack is the capital of Sweden.\nFirewall is the capital of Finland.\nCupcake is the capital of Ireland.\nClocktower is the capital of Canada.\nSatellite is the capital of Japan.\nHammer is the capital of South Korea.\nOrigami is the capital of Australia.\nViolin is the capital of Brazil.\nStarlight is the capital of Argentina.\nMushroom is the capital of India.\nTelescope is the capital of Mexico.\nUmbrella is the capital of Egypt."
+    }
+  ],
+  "projection": {
+    "proj-method": "pca",
+    "grass-method-a": "pca",
+    "grass-method-b": "lda",
+    "basis-layer-slider": 6,
+    "cpca-alpha": 7.9,
+    "grass-t": 0.5
+  },
+  "view": {
+    "layer": 10,
+    "is3d": true,
+    "lockAxis": false,
+    "trails": false,
+    "labels": false
+  },
+  "savedViews": [
+    {
+      "name": "Capitals True",
+      "projection": {
+        "method": "cpca",
+        "projParams": {
+          "basis_layer": 6,
+          "alpha": 7.9
+        }
+      },
+      "view": {
+        "layer": 6,
+        "is3d": true,
+        "lockAxis": false,
+        "trails": false,
+        "labels": false
+      }
+    },
+    {
+      "name": "Vertical",
+      "projection": {
+        "method": "pca",
+        "projParams": {
+          "basis_layer": 6
+        }
+      },
+      "view": {
+        "layer": 10,
+        "is3d": true,
+        "lockAxis": false,
+        "trails": false,
+        "labels": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "Truth Sphere": [
+    {
+      "name": "World Capitals (27 countries): True",
+      "color": "#1f77b4",
+      "items": "Paris is the capital of France.\nBerlin is the capital of Germany.\nRome is the capital of Italy.\nMadrid is the capital of Spain.\nLisbon is the capital of Portugal.\nAmsterdam is the capital of Netherlands.\nBrussels is the capital of Belgium.\nVienna is the capital of Austria.\nBern is the capital of Switzerland.\nWarsaw is the capital of Poland.\nPrague is the capital of Czechia.\nBudapest is the capital of Hungary.\nAthens is the capital of Greece.\nCopenhagen is the capital of Denmark.\nOslo is the capital of Norway.\nStockholm is the capital of Sweden.\nHelsinki is the capital of Finland.\nDublin is the capital of Ireland.\nOttawa is the capital of Canada.\nTokyo is the capital of Japan.\nSeoul is the capital of South Korea.\nCanberra is the capital of Australia.\nBrasilia is the capital of Brazil.\nBuenos Aires is the capital of Argentina.\nNew Delhi is the capital of India.\nMexico City is the capital of Mexico.\nCairo is the capital of Egypt."
+    },
+    {
+      "name": "World Capitals (27 countries): False",
+      "color": "#ff7f0e",
+      "items": "Berlin is the capital of France.\nRome is the capital of Germany.\nMadrid is the capital of Italy.\nLisbon is the capital of Spain.\nAmsterdam is the capital of Portugal.\nBrussels is the capital of Netherlands.\nVienna is the capital of Belgium.\nBern is the capital of Austria.\nWarsaw is the capital of Switzerland.\nPrague is the capital of Poland.\nBudapest is the capital of Czechia.\nAthens is the capital of Hungary.\nCopenhagen is the capital of Greece.\nOslo is the capital of Denmark.\nStockholm is the capital of Norway.\nHelsinki is the capital of Sweden.\nDublin is the capital of Finland.\nOttawa is the capital of Ireland.\nTokyo is the capital of Canada.\nSeoul is the capital of Japan.\nCanberra is the capital of South Korea.\nBrasilia is the capital of Australia.\nBuenos Aires is the capital of Brazil.\nNew Delhi is the capital of Argentina.\nMexico City is the capital of India.\nCairo is the capital of Mexico.\nParis is the capital of Egypt."
+    },
+    {
+      "name": "World Capitals (27 countries): Gibberish",
+      "color": "#2ca02c",
+      "items": "Bicycle is the capital of France.\nPancake is the capital of Germany.\nLantern is the capital of Italy.\nVolcano is the capital of Spain.\nSandbox is the capital of Portugal.\nNeutron is the capital of Netherlands.\nMarble is the capital of Belgium.\nSailboat is the capital of Austria.\nNotebook is the capital of Switzerland.\nCactus is the capital of Poland.\nComet is the capital of Czechia.\nSpoon is the capital of Hungary.\nPebble is the capital of Greece.\nAccordion is the capital of Denmark.\nFountain is the capital of Norway.\nBackpack is the capital of Sweden.\nFirewall is the capital of Finland.\nCupcake is the capital of Ireland.\nClocktower is the capital of Canada.\nSatellite is the capital of Japan.\nHammer is the capital of South Korea.\nOrigami is the capital of Australia.\nViolin is the capital of Brazil.\nStarlight is the capital of Argentina.\nMushroom is the capital of India.\nTelescope is the capital of Mexico.\nUmbrella is the capital of Egypt."
+    }
+  ]
+}
