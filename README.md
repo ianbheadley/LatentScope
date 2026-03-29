@@ -2,7 +2,7 @@
 
 **Latent Scope** is a LLM interpretability workspace. It bridges the gap between visual concept discovery and active model steering entirely. 
 
-Unlike standard dashboards that only broadly visualize embeddings, Latent Scope lets you mathematically isolate fine semantic features (like "truthfulness", "politeness", or "geographical awareness") across a model's residual stream, export the resulting vectors as an `Operator`, and directly inject them into the model's forward-pass to predictably steer live generation.
+You can visual search for and isolate semantic features (like "truthfulness", "politeness", or "geographical awareness") across a model's residual stream, export the resulting vectors as an `Operator`, and then use as a steering vector into the model's forward-pass.
 
 ## Quick Start
 1. Install MLX (pip install mlx)
@@ -31,7 +31,7 @@ To demonstrate how the Activation Surgeon can deeply manipulate structural reaso
 At **Layer 6**, Contrastive PCA (cPCA) cleanly isolated the "Geographical Factuality" (or "Encyclopedic Truth") vector. We tested two interventions on the exact same baseline prompt:
 
 #### 1. The Hyper-Factual Override (Scale: +4.0x)
-By *boosting* this targeted vector into the residual stream at Layer 6, we supercharged the model's encyclopedic certainty. Notice how it immediately strips away its default conversational "Instruct" persona and generates a relentlessly dry, deterministic list of historical and geographical facts.
+By *boosting* this targeted vector into the residual stream at Layer 6, we push the model's encyclopedic certainty. Notice how it immediately strips away its default conversational "Instruct" persona and generates a relentlessly dry, deterministic list of historical and geographical facts.
 
 > **Prompt:** `the capital of france is`
 > 
