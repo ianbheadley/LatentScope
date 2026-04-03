@@ -4,6 +4,8 @@
 
 You can visual search for and isolate semantic features (like "truthfulness", "politeness", or "geographical awareness") across a model's residual stream, export the resulting vectors as an `Operator`, and then use as a steering vector into the model's forward-pass.
 
+<img width="1918" height="917" alt="Screenshot 2026-03-30 at 9 24 46 AM" src="https://github.com/user-attachments/assets/856ea6e4-8d2a-45a9-b961-fe7006dda1b8" />
+
 ## Quick Start
 1. Install MLX (pip install mlx)
 2. Launch the workspace from your terminal:
